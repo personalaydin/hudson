@@ -1,0 +1,5 @@
+RewriteEngine On
+
+# PHP files show html extension
+RewriteCond %{THE_REQUEST} (.*)\.html
+RewriteRule ^(.*)\.html $1.php [L]

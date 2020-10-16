@@ -1,0 +1,10 @@
+# Ignore Bower components
+/assets/components
+
+# Ignore node modules
+/node_modules
+
+# Ignore macos files
+._.DS_Store
+.DS_Store
+.idea
